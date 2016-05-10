@@ -1,42 +1,32 @@
 #!/bin/sh
 #=================================================================
-#   ScriptName : name                                         
-#   Info   : what are you doing 
+#   ScriptName : systemInit                                         
+#   Info   : System init program and so on
 #   Input  : input param
 #   Output : out data
 #   MODIFIED   (MM/DD/YY)                                        
 #   date        04/16/10 - modify format           
-# 
+#   	Need programs:
+#   apt-get install zsh,host 
 #=================================================================
 
-#-----------------------------------------------------------------
-# 1.Init xxxxxx                                             
-#-----------------------------------------------------------------
-. ./utils.sh
-#-----------------------------------------------------------------
-# 2.Test for valid input 
-#-----------------------------------------------------------------
-Usage(){
-	info "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-	warn "Usage: xxxx param1 param2"
-	info "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-	exit 8
-}
-if [ $# -lt 2 ]; then
-	Usage
+# git
+if hash git 2>/dev/null; then
+	echo "git had installed"
+else
+	apt-get install git
 fi
-#-----------------------------------------------------------------
-# 3.Prepare the variables
-#-----------------------------------------------------------------
-PARAM1=$1
-shift
-PARAM2=$1
-shift
-info $PARAM1 $PARAM2
-#-----------------------------------------------------------------
-# 4.Run xxxxx
-#-----------------------------------------------------------------
-warn "The End."
+
+#zsh
+if hash zsh 2>/dev/null; then
+	echo "zsh had installed"
+else
+	apt-get install zsh
+fi
+
+#clone git
+
+
 #-----------------------------------------------------------------
 #EOF
 #-----------------------------------------------------------------

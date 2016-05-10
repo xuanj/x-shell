@@ -1,0 +1,17 @@
+#!/usr/bin/expect -f
+#Program:
+#	This program is templete for ssh my virtualRedHad6.0
+#History:
+#2014/09/26 xuanjian First release
+#不是bash，不可以用*.sh运行，要在脚本目录用./*.sh
+set timeout 10
+set ipaddr "192.168.234.116"
+set name "xuanjian"
+set passwd "asdf"
+spawn ssh -l $name $ipaddr
+send_user "Template Auto connect to remote server! \n"
+expect {
+	"yes/no" { send "yes\r"; exp_continue}
+	"password:" { send "$passwd\r" }
+	}
+interact

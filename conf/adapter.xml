@@ -1,0 +1,12 @@
+<socketAdapter>
+	<adapter>
+		<localPort>7777</localPort>
+		<remotePort>8888</remotePort>
+		<remoteHost>127.0.0.1</remoteHost>
+	</adapter>
+	<adapter>
+		<localPort>8882</localPort>
+		<remoteHost>8881</remoteHost>
+		<remotePort>132.37.5.197</remotePort>
+	</adapter>
+</socketAdapter>

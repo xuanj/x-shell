@@ -1,0 +1,193 @@
+16:06:01.452 INFO  com.socket.server.ServerDaemon.startServer:45 - ===================================
+16:06:01.454 INFO  com.socket.server.ServerDaemon.startServer:46 - Socket Server Starting...
+16:06:01.456 INFO  com.socket.server.ServerDaemon.startServer:49 - Socket Server Running...
+16:06:01.456 INFO  com.socket.server.ServerDaemon.startServer:50 - version 1.0 @author xuanjian
+16:06:01.456 INFO  com.socket.server.ServerDaemon.startServer:51 - ===================================
+16:06:01.469 INFO  com.socket.server.SocketService.run:62 - 端口7779开始监听……
+16:06:01.469 INFO  com.socket.server.SocketService.run:62 - 端口7777开始监听……
+16:06:01.469 INFO  com.socket.server.SocketService.run:62 - 端口7776开始监听……
+16:06:01.469 INFO  com.socket.server.SocketService.run:62 - 端口7778开始监听……
+11:35:56.956 INFO  com.socket.server.ServerDaemon.startServer:45 - ===================================
+11:35:56.959 INFO  com.socket.server.ServerDaemon.startServer:46 - Socket Server Starting...
+11:35:56.960 INFO  com.socket.server.ServerDaemon.startServer:49 - Socket Server Running...
+11:35:56.961 INFO  com.socket.server.ServerDaemon.startServer:50 - version 1.0 @author xuanjian
+11:35:56.961 INFO  com.socket.server.ServerDaemon.startServer:51 - ===================================
+11:35:56.973 INFO  com.socket.server.SocketService.run:62 - 端口7779开始监听……
+11:35:56.973 INFO  com.socket.server.SocketService.run:62 - 端口7778开始监听……
+11:35:56.973 INFO  com.socket.server.SocketService.run:62 - 端口7777开始监听……
+11:35:56.973 INFO  com.socket.server.SocketService.run:62 - 端口7776开始监听……
+11:36:13.838 INFO  com.socket.server.SocketService.run:65 - 收到连接，创建新线程处理[/127.0.0.1:51948]连接。
+11:36:13.840 INFO  com.socket.server.SocketService.run:67 - -========监听端口7776线程池信息=========-
+11:36:13.840 INFO  com.socket.server.SocketService.run:68 - |目前现在活动的线程数：	1		|
+11:36:13.840 INFO  com.socket.server.SocketService.run:69 - |已完成执行的任务总数：	0		|
+11:36:13.840 INFO  com.socket.server.SocketService.run:70 - |历史线程池最大线程数：	1		|
+11:36:13.841 INFO  com.socket.server.SocketService.run:71 - |现在线程池中的线程数：	1		|
+11:36:13.841 INFO  com.socket.server.SocketService.run:72 - |已经接收的线程任务数：	1		|
+11:36:13.843 INFO  com.socket.server.SocketService.run:73 - |线程池现在等待队列数：	0		|
+11:36:13.843 INFO  com.socket.server.SocketService.run:74 - -========监听端口7776线程池信息=========-
+11:36:15.215 ERROR com.socket.server.SocketContext.getXMLmsg:83 - /Users/xuanxuan/git/Shell目录下没有T0022.xml
+11:36:15.217 INFO  com.socket.server.SocketContext.socketHandle:65 - 本地端口：7776收到：【/127.0.0.1:51948】报文内容：asdf
+
+11:36:15.217 ERROR com.socket.server.SocketContext.run:35 - java.lang.NullPointerException
+17:23:46.046 INFO  com.socket.server.ServerDaemon.startServer:45 - ===================================
+17:23:46.049 INFO  com.socket.server.ServerDaemon.startServer:46 - Socket Server Starting...
+17:23:46.050 INFO  com.socket.server.ServerDaemon.startServer:49 - Socket Server Running...
+17:23:46.051 INFO  com.socket.server.ServerDaemon.startServer:50 - version 1.0 @author xuanjian
+17:23:46.051 INFO  com.socket.server.ServerDaemon.startServer:51 - ===================================
+17:23:46.062 INFO  com.socket.server.SocketService.run:62 - 端口7776开始监听……
+17:23:46.063 INFO  com.socket.server.SocketService.run:62 - 端口7779开始监听……
+17:23:46.063 INFO  com.socket.server.SocketService.run:62 - 端口7778开始监听……
+17:23:46.062 INFO  com.socket.server.SocketService.run:62 - 端口7777开始监听……
+17:24:02.195 INFO  com.socket.server.SocketService.run:65 - 收到连接，创建新线程处理[/127.0.0.1:56307]连接。
+17:24:02.197 INFO  com.socket.server.SocketService.run:67 - -========监听端口7776线程池信息=========-
+17:24:02.197 INFO  com.socket.server.SocketService.run:68 - |目前现在活动的线程数：	1		|
+17:24:02.197 INFO  com.socket.server.SocketService.run:69 - |已完成执行的任务总数：	0		|
+17:24:02.198 INFO  com.socket.server.SocketService.run:70 - |历史线程池最大线程数：	1		|
+17:24:02.198 INFO  com.socket.server.SocketService.run:71 - |现在线程池中的线程数：	1		|
+17:24:02.198 INFO  com.socket.server.SocketService.run:72 - |已经接收的线程任务数：	1		|
+17:24:02.202 INFO  com.socket.server.SocketService.run:73 - |线程池现在等待队列数：	0		|
+17:24:02.202 INFO  com.socket.server.SocketService.run:74 - -========监听端口7776线程池信息=========-
+17:24:04.912 ERROR com.socket.server.SocketContext.getXMLmsg:83 - /Users/xuanxuan/git/Shell目录下没有T0022.xml
+17:24:04.914 INFO  com.socket.server.SocketContext.socketHandle:65 - 本地端口：7776收到：【/127.0.0.1:56307】报文内容：asdf
+
+17:24:04.914 ERROR com.socket.server.SocketContext.run:35 - java.lang.NullPointerException
+17:24:25.807 INFO  com.socket.server.SocketService.run:65 - 收到连接，创建新线程处理[/127.0.0.1:56311]连接。
+17:24:25.808 INFO  com.socket.server.SocketService.run:67 - -========监听端口7776线程池信息=========-
+17:24:25.808 INFO  com.socket.server.SocketService.run:68 - |目前现在活动的线程数：	1		|
+17:24:25.808 INFO  com.socket.server.SocketService.run:69 - |已完成执行的任务总数：	1		|
+17:24:25.809 INFO  com.socket.server.SocketService.run:70 - |历史线程池最大线程数：	2		|
+17:24:25.809 INFO  com.socket.server.SocketService.run:71 - |现在线程池中的线程数：	2		|
+17:24:25.809 INFO  com.socket.server.SocketService.run:72 - |已经接收的线程任务数：	2		|
+17:24:25.809 INFO  com.socket.server.SocketService.run:73 - |线程池现在等待队列数：	0		|
+17:24:25.810 INFO  com.socket.server.SocketService.run:74 - -========监听端口7776线程池信息=========-
+17:24:27.497 ERROR com.socket.server.SocketContext.getXMLmsg:83 - /Users/xuanxuan/git/Shell目录下没有T0022.xml
+17:24:27.498 INFO  com.socket.server.SocketContext.socketHandle:65 - 本地端口：7776收到：【/127.0.0.1:56311】报文内容：asdf
+
+17:24:27.499 ERROR com.socket.server.SocketContext.run:35 - java.lang.NullPointerException
+17:24:51.129 INFO  com.socket.server.SocketService.run:65 - 收到连接，创建新线程处理[/127.0.0.1:56317]连接。
+17:24:51.130 INFO  com.socket.server.SocketService.run:67 - -========监听端口7776线程池信息=========-
+17:24:51.130 INFO  com.socket.server.SocketService.run:68 - |目前现在活动的线程数：	1		|
+17:24:51.131 INFO  com.socket.server.SocketService.run:69 - |已完成执行的任务总数：	2		|
+17:24:51.131 INFO  com.socket.server.SocketService.run:70 - |历史线程池最大线程数：	3		|
+17:24:51.131 INFO  com.socket.server.SocketService.run:71 - |现在线程池中的线程数：	3		|
+17:24:51.131 INFO  com.socket.server.SocketService.run:72 - |已经接收的线程任务数：	3		|
+17:24:51.131 INFO  com.socket.server.SocketService.run:73 - |线程池现在等待队列数：	0		|
+17:24:51.132 INFO  com.socket.server.SocketService.run:74 - -========监听端口7776线程池信息=========-
+17:24:52.370 ERROR com.socket.server.SocketContext.getXMLmsg:83 - /Users/xuanxuan/git/Shell目录下没有T0022.xml
+17:24:52.371 INFO  com.socket.server.SocketContext.socketHandle:65 - 本地端口：7776收到：【/127.0.0.1:56317】报文内容：asdf
+
+17:24:52.371 ERROR com.socket.server.SocketContext.run:35 - java.lang.NullPointerException
+17:26:30.282 INFO  com.socket.server.ServerDaemon.startServer:45 - ===================================
+17:26:30.284 INFO  com.socket.server.ServerDaemon.startServer:46 - Socket Server Starting...
+17:26:30.286 INFO  com.socket.server.ServerDaemon.startServer:49 - Socket Server Running...
+17:26:30.286 INFO  com.socket.server.ServerDaemon.startServer:50 - version 1.0 @author xuanjian
+17:26:30.286 INFO  com.socket.server.ServerDaemon.startServer:51 - ===================================
+17:26:30.298 INFO  com.socket.server.SocketService.run:62 - 端口7776开始监听……
+17:26:30.298 INFO  com.socket.server.SocketService.run:62 - 端口7777开始监听……
+17:26:30.298 INFO  com.socket.server.SocketService.run:62 - 端口7778开始监听……
+17:26:30.298 INFO  com.socket.server.SocketService.run:62 - 端口7779开始监听……
+17:26:38.999 INFO  com.socket.server.SocketService.run:65 - 收到连接，创建新线程处理[/127.0.0.1:56323]连接。
+17:26:39.002 INFO  com.socket.server.SocketService.run:67 - -========监听端口7776线程池信息=========-
+17:26:39.002 INFO  com.socket.server.SocketService.run:68 - |目前现在活动的线程数：	1		|
+17:26:39.002 INFO  com.socket.server.SocketService.run:69 - |已完成执行的任务总数：	0		|
+17:26:39.002 INFO  com.socket.server.SocketService.run:70 - |历史线程池最大线程数：	1		|
+17:26:39.002 INFO  com.socket.server.SocketService.run:71 - |现在线程池中的线程数：	1		|
+17:26:39.002 INFO  com.socket.server.SocketService.run:72 - |已经接收的线程任务数：	1		|
+17:26:39.006 INFO  com.socket.server.SocketService.run:73 - |线程池现在等待队列数：	0		|
+17:26:39.006 INFO  com.socket.server.SocketService.run:74 - -========监听端口7776线程池信息=========-
+17:26:40.121 ERROR com.socket.server.SocketContext.getXMLmsg:83 - /Users/xuanxuan/git/Shell目录下没有T0022.xml
+17:26:40.122 INFO  com.socket.server.SocketContext.socketHandle:65 - 本地端口：7776收到：【/127.0.0.1:56323】报文内容：asd
+
+17:26:40.123 ERROR com.socket.server.SocketContext.run:35 - java.lang.NullPointerException
+17:28:11.364 INFO  com.socket.server.ServerDaemon.startServer:45 - ===================================
+17:28:11.366 INFO  com.socket.server.ServerDaemon.startServer:46 - Socket Server Starting...
+17:28:11.368 INFO  com.socket.server.ServerDaemon.startServer:49 - Socket Server Running...
+17:28:11.368 INFO  com.socket.server.ServerDaemon.startServer:50 - version 1.0 @author xuanjian
+17:28:11.368 INFO  com.socket.server.ServerDaemon.startServer:51 - ===================================
+17:28:11.380 INFO  com.socket.server.SocketService.run:62 - 端口7778开始监听……
+17:28:11.380 INFO  com.socket.server.SocketService.run:62 - 端口7779开始监听……
+17:28:11.380 INFO  com.socket.server.SocketService.run:62 - 端口7777开始监听……
+17:28:11.380 INFO  com.socket.server.SocketService.run:62 - 端口7776开始监听……
+17:28:15.560 INFO  com.socket.server.SocketService.run:65 - 收到连接，创建新线程处理[/127.0.0.1:56331]连接。
+17:28:15.561 INFO  com.socket.server.SocketService.run:67 - -========监听端口7776线程池信息=========-
+17:28:15.562 INFO  com.socket.server.SocketService.run:68 - |目前现在活动的线程数：	1		|
+17:28:15.562 INFO  com.socket.server.SocketService.run:69 - |已完成执行的任务总数：	0		|
+17:28:15.562 INFO  com.socket.server.SocketService.run:70 - |历史线程池最大线程数：	1		|
+17:28:15.562 INFO  com.socket.server.SocketService.run:71 - |现在线程池中的线程数：	1		|
+17:28:15.563 INFO  com.socket.server.SocketService.run:72 - |已经接收的线程任务数：	1		|
+17:28:15.565 INFO  com.socket.server.SocketService.run:73 - |线程池现在等待队列数：	0		|
+17:28:15.566 INFO  com.socket.server.SocketService.run:74 - -========监听端口7776线程池信息=========-
+17:28:16.508 ERROR com.socket.server.SocketContext.getXMLmsg:83 - /Users/xuanxuan/git/Shell目录下没有T0022.xml
+17:28:16.509 INFO  com.socket.server.SocketContext.socketHandle:65 - 本地端口：7776收到：【/127.0.0.1:56331】报文内容：asdf
+
+17:28:16.509 ERROR com.socket.server.SocketContext.run:35 - java.lang.NullPointerException
+17:28:41.114 INFO  com.socket.server.SocketService.run:65 - 收到连接，创建新线程处理[/127.0.0.1:56338]连接。
+17:28:41.115 INFO  com.socket.server.SocketService.run:67 - -========监听端口7776线程池信息=========-
+17:28:41.115 INFO  com.socket.server.SocketService.run:68 - |目前现在活动的线程数：	1		|
+17:28:41.115 INFO  com.socket.server.SocketService.run:69 - |已完成执行的任务总数：	1		|
+17:28:41.115 INFO  com.socket.server.SocketService.run:70 - |历史线程池最大线程数：	2		|
+17:28:41.115 INFO  com.socket.server.SocketService.run:71 - |现在线程池中的线程数：	2		|
+17:28:41.115 INFO  com.socket.server.SocketService.run:72 - |已经接收的线程任务数：	2		|
+17:28:41.116 INFO  com.socket.server.SocketService.run:73 - |线程池现在等待队列数：	0		|
+17:28:41.116 INFO  com.socket.server.SocketService.run:74 - -========监听端口7776线程池信息=========-
+17:28:45.067 ERROR com.socket.server.SocketContext.getXMLmsg:83 - /Users/xuanxuan/git/Shell目录下没有T0022.xml
+17:28:45.068 INFO  com.socket.server.SocketContext.socketHandle:65 - 本地端口：7776收到：【/127.0.0.1:56338】报文内容：sdaaaaaaa
+
+17:28:45.068 ERROR com.socket.server.SocketContext.run:35 - java.lang.NullPointerException
+17:29:19.700 INFO  com.socket.server.SocketService.run:65 - 收到连接，创建新线程处理[/127.0.0.1:56346]连接。
+17:29:19.700 INFO  com.socket.server.SocketService.run:67 - -========监听端口7776线程池信息=========-
+17:29:19.700 INFO  com.socket.server.SocketService.run:68 - |目前现在活动的线程数：	1		|
+17:29:19.701 INFO  com.socket.server.SocketService.run:69 - |已完成执行的任务总数：	2		|
+17:29:19.701 INFO  com.socket.server.SocketService.run:70 - |历史线程池最大线程数：	3		|
+17:29:19.701 INFO  com.socket.server.SocketService.run:71 - |现在线程池中的线程数：	3		|
+17:29:19.701 INFO  com.socket.server.SocketService.run:72 - |已经接收的线程任务数：	3		|
+17:29:19.701 INFO  com.socket.server.SocketService.run:73 - |线程池现在等待队列数：	0		|
+17:29:19.701 INFO  com.socket.server.SocketService.run:74 - -========监听端口7776线程池信息=========-
+17:29:20.853 ERROR com.socket.server.SocketContext.getXMLmsg:83 - /Users/xuanxuan/git/Shell目录下没有T0022.xml
+17:29:20.854 INFO  com.socket.server.SocketContext.socketHandle:65 - 本地端口：7776收到：【/127.0.0.1:56346】报文内容：sadf
+
+17:29:20.854 ERROR com.socket.server.SocketContext.run:35 - java.lang.NullPointerException
+17:32:50.965 INFO  com.socket.server.ServerDaemon.startServer:45 - ===================================
+17:32:50.968 INFO  com.socket.server.ServerDaemon.startServer:46 - Socket Server Starting...
+17:32:50.969 INFO  com.socket.server.ServerDaemon.startServer:49 - Socket Server Running...
+17:32:50.969 INFO  com.socket.server.ServerDaemon.startServer:50 - version 1.0 @author xuanjian
+17:32:50.969 INFO  com.socket.server.ServerDaemon.startServer:51 - ===================================
+17:32:50.981 INFO  com.socket.server.SocketService.run:62 - 端口7776开始监听……
+17:32:50.981 INFO  com.socket.server.SocketService.run:62 - 端口7779开始监听……
+17:32:50.981 INFO  com.socket.server.SocketService.run:62 - 端口7777开始监听……
+17:32:50.981 INFO  com.socket.server.SocketService.run:62 - 端口7778开始监听……
+17:32:56.300 INFO  com.socket.server.SocketService.run:65 - 收到连接，创建新线程处理[/127.0.0.1:56383]连接。
+17:32:56.301 INFO  com.socket.server.SocketService.run:67 - -========监听端口7776线程池信息=========-
+17:32:56.301 INFO  com.socket.server.SocketService.run:68 - |目前现在活动的线程数：	1		|
+17:32:56.301 INFO  com.socket.server.SocketService.run:69 - |已完成执行的任务总数：	0		|
+17:32:56.301 INFO  com.socket.server.SocketService.run:70 - |历史线程池最大线程数：	1		|
+17:32:56.301 INFO  com.socket.server.SocketService.run:71 - |现在线程池中的线程数：	1		|
+17:32:56.301 INFO  com.socket.server.SocketService.run:72 - |已经接收的线程任务数：	1		|
+17:32:56.303 INFO  com.socket.server.SocketService.run:73 - |线程池现在等待队列数：	0		|
+17:32:56.303 INFO  com.socket.server.SocketService.run:74 - -========监听端口7776线程池信息=========-
+17:32:57.528 ERROR com.socket.server.SocketContext.getXMLmsg:83 - /Users/xuanxuan/git/Shell目录下没有T0022.xml
+17:32:57.529 INFO  com.socket.server.SocketContext.socketHandle:65 - 本地端口：7776收到：【/127.0.0.1:56383】报文内容：asdf
+
+17:32:57.529 ERROR com.socket.server.SocketContext.run:35 - java.lang.NullPointerException
+17:41:35.912 INFO  com.socket.server.ServerDaemon.startServer:45 - ===================================
+17:41:35.914 INFO  com.socket.server.ServerDaemon.startServer:46 - Socket Server Starting...
+17:41:35.916 INFO  com.socket.server.ServerDaemon.startServer:49 - Socket Server Running...
+17:41:35.916 INFO  com.socket.server.ServerDaemon.startServer:50 - version 1.0 @author xuanjian
+17:41:35.916 INFO  com.socket.server.ServerDaemon.startServer:51 - ===================================
+17:41:35.928 INFO  com.socket.server.SocketService.run:62 - 端口7777开始监听……
+17:41:35.929 INFO  com.socket.server.SocketService.run:62 - 端口7776开始监听……
+17:41:35.929 INFO  com.socket.server.SocketService.run:62 - 端口7779开始监听……
+17:41:35.929 INFO  com.socket.server.SocketService.run:62 - 端口7778开始监听……
+17:41:39.413 INFO  com.socket.server.SocketService.run:65 - 收到连接，创建新线程处理[/127.0.0.1:56482]连接。
+17:41:39.414 INFO  com.socket.server.SocketService.run:67 - -========监听端口7776线程池信息=========-
+17:41:39.414 INFO  com.socket.server.SocketService.run:68 - |目前现在活动的线程数：	1		|
+17:41:39.415 INFO  com.socket.server.SocketService.run:69 - |已完成执行的任务总数：	0		|
+17:41:39.415 INFO  com.socket.server.SocketService.run:70 - |历史线程池最大线程数：	1		|
+17:41:39.415 INFO  com.socket.server.SocketService.run:71 - |现在线程池中的线程数：	1		|
+17:41:39.415 INFO  com.socket.server.SocketService.run:72 - |已经接收的线程任务数：	1		|
+17:41:39.418 INFO  com.socket.server.SocketService.run:73 - |线程池现在等待队列数：	0		|
+17:41:39.419 INFO  com.socket.server.SocketService.run:74 - -========监听端口7776线程池信息=========-
+17:41:42.174 ERROR com.socket.server.SocketContext.getXMLmsg:83 - /Users/xuanxuan/git/Shell目录下没有T0022.xml
+17:41:42.174 INFO  com.socket.server.SocketContext.socketHandle:65 - 本地端口：7776收到：【/127.0.0.1:56482】报文内容：abc
+
+17:41:42.174 ERROR com.socket.server.SocketContext.run:35 - java.lang.NullPointerException
